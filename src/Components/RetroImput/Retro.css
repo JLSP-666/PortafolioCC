@@ -1,0 +1,20 @@
+.retro-input {
+  border-width: 16px;
+  border-style: solid;
+  border-image: url('../../assets/borde.png') 30 round;
+  border-radius: 20px;
+  background-color: black;
+  background-size: 2px;
+  outline: none;
+  color: #00ff2f;
+  font-family: monospace;
+  padding: 12px;
+  width: 9999px;
+  font-size: 0.875rem;
+  resize: none;                 /* Desactiva redimensionar */
+  white-space: pre-wrap;        /* Respeta saltos y espacios */
+  word-wrap: break-word;        /* Rompe palabras largas si es necesario */
+  overflow-wrap: break-word;    /* Recomendado para navegadores modernos */
+  overflow-y: auto;             /* Muestra scroll si es necesario */
+  box-sizing: border-box;
+}
